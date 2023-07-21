@@ -2,7 +2,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+```bash
+Install the next auth package
+
+npm install next-auth
+```
+
+```code
+Get your github client ID and Client Secrets and paste them in your .env file
+
+GITHUB_ID = 
+GITHUB_CLIENT =
+```
+
+run the development server:
 
 ```bash
 npm run dev
